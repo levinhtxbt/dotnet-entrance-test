@@ -14,16 +14,19 @@ This test is designed for students who haven't learnt AspNet.Core Web API before
 **Duration: 1 week.**
 
 ## Requirements:
-We need to build an application to manage book in the library. Complete the list of items bellow to pass the challenges !!! ⚔️⚔️⚔️ 
+
+We need to build an application to manage book in the library. Complete the list of items bellow to pass the challenges !!! ⚔️⚔️⚔️
+
 -   [ ] Create a web API project.
--   [ ] Add a model class and a database context. use ``InMemory`` database for testing purposes 
+-   [ ] Add a model class and a database context. use `InMemory` database for testing purposes
 -   [ ] Scaffold a controller with CRUD methods.
 -   [ ] Configure routing, URL paths, and return values.
 -   [ ] Call the web API with Postman.
+-   [ ] Use GitHub to manage source code 
 
 The following diagram shows the model of the app.
 
-![Book Store ERD](images/BookERD.png)
+![Book Store ERD](images/BookERD.jpg)
 
 Create the following APIs:
 
@@ -36,10 +39,11 @@ Create the following APIs:
 | DELETE | /api/books/{id} | Delete an item          | None         | None                                  |
 | GET    | /api/authors    | Get list of author      | None         | Array of authors with number of books |
 
+---
 
-----
-> ## Bonus
-> Add user identity and apply login with JWT 
+> ## Extra work
+>
+> Add user identity and apply login with JWT
 
 # References
 
