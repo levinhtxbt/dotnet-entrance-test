@@ -1,7 +1,7 @@
 # Before you get started
 
 -   How to install Visual Studio: https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022
--   Install Dotnet SDK (.Net 6): https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+-   Install Dotnet SDK (.Net 6 or newest): https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 -   Get familiar with Visual Studio: https://visualstudio.microsoft.com/vs/getting-started/
     https://www.youtube.com/watch?v=1CgsMtUmVgs
 -   How to use git: https://try.github.io/levels/1/challenges/1
@@ -42,9 +42,10 @@ Create the following APIs:
 
 ---
 
-> ## Extra work
->
-> [] Add user identity and apply login with JWT
+> ## 💡 Extra work 
+- [ ] Add user identity and apply login with JWT
+- [ ] Add custom middleware to write logs when requests take more than 500ms.
+
 
 # References
 
