@@ -1,4 +1,4 @@
-# [🔙 Home](Readme.md)
+# [🔙 Home](README.md)
 
 # Get-list-books
 
@@ -198,8 +198,7 @@
         "female": false,
         "bornYear": 1927,
         "diedYear": 1987,
-        "age": 60 // Calculates based on current year if they are alive,
-        // otherwise based on year of death.
+        "age": 60
     },
     "publishYear": 1952,
     "price": 12.34,
@@ -419,8 +418,7 @@ None
         "female": false,
         "bornYear": 1957,
         "diedYear": null,
-        "age": 66 // Calculates based on current year if they are alive,
-        // otherwise based on year of death.
+        "age": 66 
     },
     "publishYear": 2009,
     "price": 50.05,
@@ -561,8 +559,7 @@ None
         "female": false,
         "bornYear": 1957,
         "diedYear": null,
-        "age": 66 // Calculates based on current year if they are alive,
-        // otherwise based on year of death.
+        "age": 66
     }
 ]
 ```

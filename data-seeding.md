@@ -1,8 +1,8 @@
-# [🔙 Home](Readme.md)
+# [🔙 Home](README.md)
 
 # Seeding default data as list below:
 
-### Authors
+### 🤵‍♂️ Authors
 
 | Id  | Name                     | Female | Born | Died |
 | --- | ------------------------ | ------ | ---- | ---- |
@@ -35,7 +35,7 @@
 | 29  | Wahiduddin Khan          | FALSE  | 1925 | 2021 |
 | 30  | Paulo Coelho             | FALSE  | 1947 |      |
 
-### Books
+### 📚 Books
 
 | Id  | Title                                       | Topic             | PublishYear | AuthorId | Price   | Rating |
 | --- | ------------------------------------------- | ----------------- | ----------- | -------- | ------- | ------ |
