@@ -19,25 +19,26 @@ We need to build an application to manage book in the library. Complete the list
 
 -   [ ] Create a web API project.
 -   [ ] Add a model class and a database context. use `InMemory` database for testing purposes
+-   [ ] Seeding default data ([list here](data-seeding.md))
 -   [ ] Scaffold a controller with CRUD methods.
 -   [ ] Configure routing, URL paths, and return values.
 -   [ ] Call the web API with Postman.
--   [ ] Use GitHub to manage source code 
+-   [ ] Use GitHub to manage source code
 
 The following diagram shows the model of the app.
 
-![Book Store ERD](images/BookERD.jpg)
+![Book Store ERD](images/BookERD.png)
 
 Create the following APIs:
 
-| Method | API             | Description             | Request body | Response body                         |
-| ------ | --------------- | ----------------------- | ------------ | ------------------------------------- |
-| GET    | /api/books      | Get all books           | None         | Array of book items                   |
-| GET    | /api/books/{id} | Get an item by ID       | Book Item Id | Book item                             |
-| POST   | /api/books      | Add a new item          | Book Item    | Book item                             |
-| PUT    | /api/books/{id} | Update an existing item | Book Item    | None                                  |
-| DELETE | /api/books/{id} | Delete an item          | None         | None                                  |
-| GET    | /api/authors    | Get list of author      | None         | Array of authors with number of books |
+| Method | API             | Description                                                             | Response body                         | Example                   |
+| ------ | --------------- | ----------------------------------------------------------------------- | ------------------------------------- | ------------------------- |
+| GET    | /api/books      | Get all books (Supports filtering by AuthorId, Rating, and PublishYear) | Array of book items                   | [detail](sample-request.md#Get-list-book) |
+| GET    | /api/books/{id} | Get an item by ID                                                       | Book item                             | [detail](sample-request.md#Get-detail-book) 
+| POST   | /api/books      | Add a new item                                                          | Book item                             | [detail](sample-request.md#Create-book) 
+| PUT    | /api/books/{id} | Update an existing item                                                 | None                                  | [detail](sample-request.md#Update-book) 
+| DELETE | /api/books/{id} | Delete an item                                                          | None                                  | [detail](sample-request.md#Delete-book) 
+| GET    | /api/authors    | Get list of author                                                      | Array of authors with number of books | [detail](sample-request.md#Get-authors ) 
 
 ---
 
