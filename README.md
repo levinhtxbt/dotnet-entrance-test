@@ -44,7 +44,7 @@ Create the following APIs:
 
 > ## Extra work
 >
-> Add user identity and apply login with JWT
+> [] Add user identity and apply login with JWT
 
 # References
 
